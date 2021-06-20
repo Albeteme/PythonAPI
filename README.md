@@ -7,6 +7,8 @@ The first requirement was to create a series of scatter plots to showcase the fo
 - Humidity (%) vs. Latitude
 - Cloudiness (%) vs. Latitude
 - Wind Speed (mph) vs. Latitude
+![image](https://user-images.githubusercontent.com/75787486/122659880-37453680-d14a-11eb-8abe-44a3488b9b19.png)
+
 The second requirement is to run linear regression on each relationship. This time, separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and - - Southern Hemisphere (less than 0 degrees latitude):
 - Northern Hemisphere - Temperature (F) vs. Latitude
 - Southern Hemisphere - Temperature (F) vs. Latitude
@@ -21,6 +23,7 @@ The final notebook:
 - Perform a weather check on each of the cities using a series of successive API calls.
 - Include a print log of each city as it's being processed with the city number and city name.
 - Save a CSV of all retrieved data and a PNG image for each scatter plot.
+![image](https://user-images.githubusercontent.com/75787486/122659884-3f04db00-d14a-11eb-9048-993b2e60ea94.png)
 
 In the second part of the assignment,
 - Create a heat map that displays the humidity for every city from Part I.
